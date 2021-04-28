@@ -1,0 +1,133 @@
+html{
+    font-size:10px;
+    font-family: 'Original Surfer', cursive;
+}
+@font-face {
+    font-family: 'Original Surfer', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+    font-weight: normal;
+    font-style: normal;
+   }
+
+   h1 {
+    font-family: 'Original Surfer', cursive;
+    text-align: center;
+    font-weight: 100;
+    font-size: 5rem;
+    margin: 2rem 0;
+    letter-spacing: -1px;
+    color: black;
+    text-decoration: none;
+   }
+   h2{
+    font-family: 'Original Surfer', cursive;
+    text-align: center;
+    display: block;
+   }
+   .memorywall{
+       width:75%;
+       float:left;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+   }
+   .memory{
+       width:100%;
+       height:100px;
+       border-radius: 20px;
+       background-color: aliceblue;
+       margin: 20px;
+   }
+.memory-pic {
+    width:20%;
+    height:100%;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    float: left;
+    background-size: contain;
+}
+
+.memory-descriptions {
+    width:70%;
+    height:80%;
+    margin-left: 20%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 50;
+    font-size:14px;
+}
+
+.memory-cancel{
+    background: url("../images/close.svg") center no-repeat;
+    background-size: contain;
+    border: none;
+    width:10px;
+    height: 10px;
+    position: relative;
+    right: 20px;
+    bottom:80px;
+    float: right;
+    cursor: pointer;
+}
+.memory-cancel:hover,.memory-cancel:focus{
+    transform: scale(1.2) rotate(60deg);
+    transition:all;
+    color: white;
+}
+
+.add-memory{
+    width:15%;
+    height:400px;
+    z-index: 100;
+    background-color: paleturquoise;
+    float:right;
+    position: fixed;
+    right:7%;
+    border-radius: 10px;
+}
+
+form{
+    padding: 0 0 0;
+    margin: auto;
+}
+input{
+    font-family: sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    word-wrap: break-word;
+    word-break: break-all;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    
+}
+#inputOne{
+    height: 50px;
+}
+#inputTwo{
+    height: 250px;
+}
+form button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background:#065784;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
